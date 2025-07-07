@@ -1,0 +1,212 @@
+/* ==== ESTILO GLOBAL ==== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ==== CONTENEDOR DEL REPRODUCTOR ==== */
+.player-container {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* ==== PORTADA DEL ÁLBUM ==== */
+.img-container img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  margin-bottom: 25px;
+}
+
+/* ==== TÍTULO Y ARTISTA ==== */
+#title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#artist {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-bottom: 25px;
+}
+
+/* ==== BARRA DE PROGRESO ==== */
+.progress-container {
+  background: #2c2c2c;
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.progress {
+  background: #4caf50;
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+.duration-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+/* ==== CONTROLES DEL REPRODUCTOR ==== */
+.player-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.player-controls i {
+  font-size: 28px;
+  color: #f0f0f0;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.player-controls i:hover {
+  color: #4caf50;
+  transform: scale(1.1);
+}
+
+/* ==== LISTA DE REPRODUCCIÓN ==== */
+#playlistSongs {
+  width: 100%;
+  max-width: 500px;
+  list-style: none;
+  padding: 0;
+  margin: 40px auto 0;
+}
+
+#playlistSongs li {
+  background-color: #232323;
+  padding: 14px 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+  text-align: left;
+  font-size: 15px;
+}
+
+#playlistSongs li:hover {
+  background-color: #333;
+  transform: translateX(5px);
+}
+
+#playlistSongs li.active {
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  transform: translateX(0); 
+}
+
+/* ==== BOTÓN RESET ==== */
+#reset {
+  display: block;
+  margin: 0 auto 25px;
+  padding: 12px 28px;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#reset:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}
+
+/* ==== NUEVOS BOTONES: SHUFFLE & REPEAT ==== */
+#controls-extended {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto 0;
+}
+
+#shuffle,
+#repeat {
+  color: #f0f0f0;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+#shuffle:hover,
+#repeat:hover {
+  color: #4caf50;
+  transform: scale(1.1);
+}
+
+#shuffle.active,
+#repeat.active {
+  color: #4caf50;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 600px) {
+  .player-container {
+    padding: 20px;
+  }
+
+  #title {
+    font-size: 20px;
+  }
+
+  #artist {
+    font-size: 14px;
+  }
+
+  .player-controls i {
+    font-size: 24px;
+  }
+
+  #playlistSongs li {
+    font-size: 14px;
+  }
+
+  #reset {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  #shuffle,
+  #repeat {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
