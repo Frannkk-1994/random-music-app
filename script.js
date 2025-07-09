@@ -1,128 +1,115 @@
 // 🎵 Lista original de canciones
 const allSongs = [
   {
-    title: "Por el Momento",
-    artist: "Nicky Jam",
-    src: "music/Por el momento - Nicky jam.mp3",
+    title: "Alter Ego",
+    artist: "Diego Nava",
+    src: "music/Alter Ego - Diego Nava.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Que Va",
-    artist: "Ozuna",
-    src: "music/Que Va - Ozuna.mp3",
+    title: "Autofahren",
+    artist: "Mauro Urina",
+    src: "music/Autofahren - Mauro Urbina.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Maquillaje",
-    artist: "Anuel AA",
-    src: "music/Maquillaje - Anuel AA.mp3",
+    title: "Batir El Descanso",
+    artist: "Alejandro Magaña",
+    src: "music/Batir El Descanso - Alejandro Magaña.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "El Amante",
-    artist: "Nicky Jam",
-    src: "music/El Amante - Nicky Jam.mp3",
+    title: "Bosque En Ascenso",
+    artist: "Diego Nava",
+    src: "music/Bosque En Ascenso - Diego Nava.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Quiereme",
-    artist: "Jacob Forever",
-    src: "music/Quiereme - Jacob Forever.mp3",
+    title: "Curiosidad",
+    artist: "Diego Nava",
+    src: "music/Curiosidad - Diego Nava.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "La Curiosidad",
-    artist: "Myke Towers",
-    src: "music/La Curiosidad - Myke Towers.mp3",
+    title: "El Tiempo Cura",
+    artist: "Michael Ramir",
+    src: "music/El Tiempo Cura - Michael Ramir.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Cosa Linda",
-    artist: "lucky Brown",
-    src: "music/Cosa Linda - Lucky Brown.mp3",
-    img: "images/francis.jpg"
-  },
-   {
-    title: "Aullando",
-    artist: "Wisin",
-    src: "music/Aullando - Wisin.mp3",
+    title: "Game Boy",
+    artist: "Diego Nava",
+    src: "music/Game Boy - Diego Nava.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Adicto",
-    artist: "Anuel AA",
-    src: "Adicto - Anuel AA.mp3",
+    title: "Esa Tarde en Yelapa",
+    artist: "Mauro Urbina",
+    src: "music/Esa Tarde En Yelapa - Mauro Urbina.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "La Falda",
-    artist: "Myke Towers",
-    src: "music/La Falda - Myke Towers.mp3",
+    title: "Karma",
+    artist: "Michael Ramir",
+    src: "music/Karma - Michael Ramir.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Voy a Beber",
-    artist: "Nicky Jam",
-    src: "music/Voy a Beber - Nicky Jam.mp3",
+    title: "Mañana De Trance Lento",
+    artist: "Alejandro Magaña",
+    src: "music/Mañana De Trance Lento - Alejandro Magaña.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Quiero Repetir",
-    artist: "Ozuna",
-    src: "Quiero Repetir - Ozuna.mp3",
+    title: "Manzana Prohibida",
+    artist: "Michael Ramir",
+    src: "music/Manzana Prohibida - Michael Ramir.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Me Niego",
-    artist: "Reik",
-    src: "Me Niego - Reik.mp3",
+    title: "Moda",
+    artist: "Arulo",
+    src: "music/Moda - Arulo.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Obsesionado",
-    artist: "Farruko",
-    src: "Obsesionado - Farruko.mp3",
+    title: "Nacido",
+    artist: "Eugenio Mininni",
+    src: "music/Nacido - Eugenio Mininni.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Fanatica Sensual",
-    artist: "Plan B",
-    src: "Fanatica Sensual - Plan B.mp3",
+    title: "Noches Con Ga",
+    artist: "Eugenio Mininni",
+    src: "music/Noches Con Ga - Eugenio Mininni.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Elegi",
-    artist: "Rauw Alejandro",
-    src: "Elegi - Rauw Alejandro.mp3",
+    title: "Rutina Del Viernes",
+    artist: "Michael Ramir",
+    src: "music/Rutina Del Viernes - Michael Ramir.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Desesperados",
-    artist: "Rauw Alejandro",
-    src: "Desesperados - Rauw Alejandro.mp3",
-    img: "images/francis.jpg"
-  },
-   {
-    title: "El Perdon",
-    artist: "Nicky Jam",
-    src: "El Perdon - Nicky Jam.mp3",
+    title: "Nuestras Noches ",
+    artist: "Eugenio Mininni",
+    src: "music/Nuestras Noches - Eugenio Mininni.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Escapate Conmigo",
-    artist: "Wisin",
-    src: "Escapate Conmigo - Wisin.mp3",
+    title: "Surco Infeccioso",
+    artist: "Alejandro Magaña",
+    src: "music/Surco Infeccioso - Alejandro Magaña.mp3",
     img: "images/francis.jpg"
   },
   {
-    title: "Baby",
-    artist: "Nicky Jam",
-    src: "music/Baby - Nicky Jam.mp3",
+    title: "Urbano Profundo",
+    artist: "Eugenio Mininni",
+    src: "music/Urbano Profundo - Eugenio Mininni.mp3",
     img: "images/francis.jpg"
   }
 ];
-
-// 📦 Estado global
+// 📦 Estado global del reproductor
 const userData = {
   songs: [...allSongs],
   currentSongIndex: 0,
@@ -130,7 +117,7 @@ const userData = {
   isRepeat: false
 };
 
-// 🎯 DOM
+// 🎯 Referencias al DOM
 const playlistSongs = document.getElementById("playlistSongs");
 const audio = document.getElementById("audio");
 const title = document.getElementById("title");
@@ -146,13 +133,13 @@ const progress = document.getElementById("progress");
 const currentTimeEl = document.getElementById("current-time");
 const durationEl = document.getElementById("duration");
 
-// 🔘 Reset
+// 🔘 Botón para resetear playlist
 const resetButton = document.createElement("button");
 resetButton.id = "reset";
 resetButton.ariaLabel = "Reset playlist";
 resetButton.textContent = "Reset Playlist";
 
-// ▶️ Reproducir canción
+// ▶️ Reproduce una canción según el índice
 function playSongAtIndex(index) {
   const song = userData.songs[index];
   if (!song) return;
@@ -162,20 +149,21 @@ function playSongAtIndex(index) {
   cover.src = song.img;
   title.textContent = song.title;
   artist.textContent = song.artist;
-  audio.play();
 
+  audio.play();
   updatePlayIcon(true);
   highlightActiveSong(index);
 }
 
-// ✅ Resaltar activa
+
+// ✅ Resalta la canción actualmente activa en la lista
 function highlightActiveSong(index) {
   const items = document.querySelectorAll("#playlistSongs li.song-item");
   items.forEach((item) => item.classList.remove("active"));
   if (items[index]) items[index].classList.add("active");
 }
 
-// 🔁 Reset
+// 🔁 Botón de reset para volver al inicio
 resetButton.addEventListener("click", () => {
   userData.songs = [...allSongs];
   userData.currentSongIndex = 0;
@@ -183,7 +171,7 @@ resetButton.addEventListener("click", () => {
   playSongAtIndex(0);
 });
 
-// 📋 Renderizar canciones
+// 📋 Renderiza las canciones en la interfaz
 function renderSongs(songs) {
   playlistSongs.innerHTML = "";
   playlistSongs.appendChild(resetButton);
@@ -200,7 +188,7 @@ function renderSongs(songs) {
   });
 }
 
-// 🔁 PLAY/PAUSE
+// 🔁 Control de reproducción/pausa
 playPauseBtn.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
@@ -211,38 +199,42 @@ playPauseBtn.addEventListener("click", () => {
   }
 });
 
-// ⏮ ANTERIOR
+// ⏮ Reproduce la canción anterior
 prevBtn.addEventListener("click", () => {
   const prevIndex = userData.currentSongIndex - 1;
   playSongAtIndex(prevIndex >= 0 ? prevIndex : userData.songs.length - 1);
 });
 
-// ⏭ SIGUIENTE
+// ⏭ Reproduce la siguiente canción
 nextBtn.addEventListener("click", playNextSong);
 
-// ⏯ Cambiar icono
+// 🎚 Cambia el ícono según estado
 function updatePlayIcon(isPlaying) {
   playPauseBtn.classList.toggle("fa-play", !isPlaying);
   playPauseBtn.classList.toggle("fa-pause", isPlaying);
 }
 
-// 🕒 Progreso
+// 🕒 Actualiza el tiempo de reproducción y duración
 audio.addEventListener("timeupdate", () => {
   if (!audio.duration) return;
   const percent = (audio.currentTime / audio.duration) * 100;
   progress.style.width = `${percent}%`;
   currentTimeEl.textContent = formatTime(audio.currentTime);
+});
+
+// ⏱ Muestra duración al cargar metadata
+audio.addEventListener("loadedmetadata", () => {
   durationEl.textContent = formatTime(audio.duration);
 });
 
-// ⏩ Click barra
+// 📍 Permite al usuario avanzar con clic
 progressContainer.addEventListener("click", (e) => {
   const width = progressContainer.clientWidth;
   const clickX = e.offsetX;
   if (audio.duration) audio.currentTime = (clickX / width) * audio.duration;
 });
 
-// 🔄 Siguiente automática
+// 🔁 Al terminar, pasa a la siguiente (o repite)
 audio.addEventListener("ended", () => {
   if (userData.isRepeat) {
     audio.currentTime = 0;
@@ -252,19 +244,19 @@ audio.addEventListener("ended", () => {
   }
 });
 
-// 🔁 Shuffle
+// 🔀 Activa o desactiva modo aleatorio
 shuffleBtn.addEventListener("click", () => {
   userData.isShuffle = !userData.isShuffle;
   shuffleBtn.classList.toggle("active", userData.isShuffle);
 });
 
-// 🔁 Repeat
+// 🔁 Activa o desactiva modo repetir
 repeatBtn.addEventListener("click", () => {
   userData.isRepeat = !userData.isRepeat;
   repeatBtn.classList.toggle("active", userData.isRepeat);
 });
 
-// ⏭ Función siguiente
+// ⏭ Función para reproducir la siguiente canción
 function playNextSong() {
   if (userData.isShuffle) {
     let randomIndex;
@@ -278,16 +270,20 @@ function playNextSong() {
   }
 }
 
-// ⏱ Formatear mm:ss
+// 🕒 Convierte segundos a formato mm:ss
 function formatTime(time) {
   const minutes = Math.floor(time / 60);
   const seconds = String(Math.floor(time % 60)).padStart(2, "0");
   return `${minutes}:${seconds}`;
 }
 
-// 🚀 Iniciar
+// 🚀 Inicialización
 renderSongs(userData.songs);
-playSongAtIndex(userData.currentSongIndex);
-
-// 🔄 Asegurar que el ícono esté en estado "play" al iniciar
-updatePlayIcon(false); // false = mostrar ícono de "play"
+// Solo mostramos la información sin reproducir
+const song = userData.songs[userData.currentSongIndex];
+audio.src = song.src;
+cover.src = song.img;
+title.textContent = song.title;
+artist.textContent = song.artist;
+updatePlayIcon(false);
+highlightActiveSong(userData.currentSongIndex);

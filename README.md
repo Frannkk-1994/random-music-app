@@ -24,8 +24,24 @@ Este proyecto es un reproductor de música interactivo creado con HTML, CSS y Ja
 - **CSS3** – Estilos, animaciones y diseño responsive
 - **JavaScript** – Lógica de reproducción, eventos, manipulación del DOM
 - **Font Awesome** – Iconos para los controles
+- Música: **Mixkit**, libre de derechos de autor
+---
+
+## 🎧 Créditos musicales
+
+La música utilizada en este proyecto ha sido descargada desde [Mixkit](https://mixkit.co/) y está **libre de derechos de autor**.
+
+Autores destacados:
+
+- Diego Nava
+- Michael Ramir
+- Eugenio Mininni
+- Alejandro Magaña
+- Mauro Urbina
+- Arulo
 
 ---
+
 
 ## 📂 Cómo clonar y ejecutar
 
