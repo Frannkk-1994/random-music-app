@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎵 Reproductor de Música Aleatoria
 
 Este proyecto es un reproductor de música interactivo creado con HTML, CSS y JavaScript. Permite a los usuarios escuchar una lista de canciones con controles modernos, animaciones suaves y diseño responsive.
@@ -48,3 +49,7 @@ Autores destacados:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/Frannkk-1994/random-music-app.git
+=======
+# random-music-app
+"Aplicación de música con HTML, CSS y JavaScript para reproducir música de manera aleatoria"
+>>>>>>> 386901bbabed05d748a33e1e3b0d9a38ad3d75f0
