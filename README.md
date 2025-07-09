@@ -3,7 +3,7 @@
 
 Este proyecto es un reproductor de música interactivo creado con HTML, CSS y JavaScript. Permite a los usuarios escuchar una lista de canciones con controles modernos, animaciones suaves y diseño responsive.
 
-![](screenshot.png)
+![](screnshot.png)
 
 ---
 
